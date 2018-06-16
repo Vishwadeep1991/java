@@ -2,8 +2,12 @@ package com.cars;
 import com.Engines.Engine;
 
 public class Ford{
-	void moveFast(){
+	void move(){
 	Engine e=new Engine();
-	int rpm=e.engine3000cc();
+	System.out.println("Moving with"+e.engine1000cc());
 	}
+  public static void main(String[]args){
+	Ford f=new Ford();
+	f.move();
+  }
 }
