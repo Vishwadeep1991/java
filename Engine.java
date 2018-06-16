@@ -2,11 +2,11 @@ package com.Engines;
 
 public class Engine{
 	public int engine1000cc(){
-	int rpmCount=100;
-	return rpmCount;
+	int rpm=100;
+	return rpm;
 	}
-public int engine3000cc(){
-	int rpmCount=300;
-	return rpmCount;
+protected int engine2000cc(){
+	int rpm=2000;
+	return rpm;
 	}
 }
