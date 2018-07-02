@@ -18,7 +18,7 @@ for (i=0; i<=5; i++)
     System.out.println(linkedlist);
     linkedlist.addLast("LAST");
     System.out.println(linkedlist);
-  System.out.println("Time complexity is n");
+  System.out.println("Time complexity is n(1)");
    }
   }
  }
