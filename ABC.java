@@ -5,6 +5,7 @@ class ABC{
 	return a*a;
    }
 }  
+//TODO when i try to compile in eclipse it is giving issue,kindly fix it
 public class Example{
    public static void main(String args[]){  
 	ABC obj = new ABC();  
